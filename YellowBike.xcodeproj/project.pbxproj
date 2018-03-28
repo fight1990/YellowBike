@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E092AE7867B572B609655C /* Pods_YellowBikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4466197CEA1290D1A462C1DB /* Pods_YellowBikeUITests.framework */; };
+		2ECD9649C524D010389D805D /* Pods_YellowBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113FD54CB3DF88927E91CB9 /* Pods_YellowBike.framework */; };
+		C4DA06359E9D6118FD3C608F /* Pods_YellowBikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C572341A9186CFE08C5F95 /* Pods_YellowBikeTests.framework */; };
+		F26553FD2069284600BF4904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553FC2069284600BF4904 /* AppDelegate.swift */; };
+		F26553FF2069284600BF4904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553FE2069284600BF4904 /* ViewController.swift */; };
+		F26554022069284600BF4904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26554002069284600BF4904 /* Main.storyboard */; };
+		F26554052069284600BF4904 /* YellowBike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F26554032069284600BF4904 /* YellowBike.xcdatamodeld */; };
+		F26554072069284600BF4904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26554062069284600BF4904 /* Assets.xcassets */; };
+		F26554152069284600BF4904 /* YellowBikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554142069284600BF4904 /* YellowBikeTests.swift */; };
+		F26554202069284600BF4904 /* YellowBikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265541F2069284600BF4904 /* YellowBikeUITests.swift */; };
+		F26554AC206A4CA500BF4904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26554AB206A4CA500BF4904 /* LaunchScreen.storyboard */; };
+		F26554B1206A52D300BF4904 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554B0206A52D300BF4904 /* WebViewViewController.swift */; };
+		F26554B5206ABED500BF4904 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554B4206ABED500BF4904 /* MenuTableViewController.swift */; };
+		F26554BA206B32C900BF4904 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554B9206B32C800BF4904 /* API.swift */; };
+		F26554BC206BCD9D00BF4904 /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554BB206BCD9D00BF4904 /* MyPinAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26554112069284600BF4904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26553F12069284500BF4904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26553F82069284600BF4904;
+			remoteInfo = YellowBike;
+		};
+		F265541C2069284600BF4904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26553F12069284500BF4904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26553F82069284600BF4904;
+			remoteInfo = YellowBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0113FD54CB3DF88927E91CB9 /* Pods_YellowBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C572341A9186CFE08C5F95 /* Pods_YellowBikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowBikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4466197CEA1290D1A462C1DB /* Pods_YellowBikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YellowBikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531B647DA54D302427318F8F /* Pods-YellowBikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBikeUITests/Pods-YellowBikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69C472BD05CF1751683C8C38 /* Pods-YellowBikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBikeTests/Pods-YellowBikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A45BB0450821508537ECC502 /* Pods-YellowBikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBikeUITests/Pods-YellowBikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AABC1215036465890FD8FD5A /* Pods-YellowBikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBikeTests/Pods-YellowBikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B331E6E887AEC9A6F9CDD808 /* Pods-YellowBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1CF12C0F15CEBF165CF9EE /* Pods-YellowBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike.release.xcconfig"; sourceTree = "<group>"; };
+		F26553F92069284600BF4904 /* YellowBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26553FC2069284600BF4904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F26553FE2069284600BF4904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F26554012069284600BF4904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26554042069284600BF4904 /* YellowBike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YellowBike.xcdatamodel; sourceTree = "<group>"; };
+		F26554062069284600BF4904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F265540B2069284600BF4904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26554102069284600BF4904 /* YellowBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26554142069284600BF4904 /* YellowBikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBikeTests.swift; sourceTree = "<group>"; };
+		F26554162069284600BF4904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F265541B2069284600BF4904 /* YellowBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YellowBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F265541F2069284600BF4904 /* YellowBikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBikeUITests.swift; sourceTree = "<group>"; };
+		F26554212069284600BF4904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26554AB206A4CA500BF4904 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26554B0206A52D300BF4904 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		F26554B4206ABED500BF4904 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		F26554B6206AC03F00BF4904 /* YellowBike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YellowBike-Bridging-Header.h"; sourceTree = "<group>"; };
+		F26554B9206B32C800BF4904 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F26554BB206BCD9D00BF4904 /* MyPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26553F62069284600BF4904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECD9649C524D010389D805D /* Pods_YellowBike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F265540D2069284600BF4904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DA06359E9D6118FD3C608F /* Pods_YellowBikeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26554182069284600BF4904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E092AE7867B572B609655C /* Pods_YellowBikeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B51E9103AA912AB364086C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B331E6E887AEC9A6F9CDD808 /* Pods-YellowBike.debug.xcconfig */,
+				CC1CF12C0F15CEBF165CF9EE /* Pods-YellowBike.release.xcconfig */,
+				69C472BD05CF1751683C8C38 /* Pods-YellowBikeTests.debug.xcconfig */,
+				AABC1215036465890FD8FD5A /* Pods-YellowBikeTests.release.xcconfig */,
+				A45BB0450821508537ECC502 /* Pods-YellowBikeUITests.debug.xcconfig */,
+				531B647DA54D302427318F8F /* Pods-YellowBikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F26553F02069284500BF4904 = {
+			isa = PBXGroup;
+			children = (
+				F26553FB2069284600BF4904 /* YellowBike */,
+				F26554132069284600BF4904 /* YellowBikeTests */,
+				F265541E2069284600BF4904 /* YellowBikeUITests */,
+				F26553FA2069284600BF4904 /* Products */,
+				F26554AD206A50C700BF4904 /* Frameworks */,
+				5B51E9103AA912AB364086C2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F26553FA2069284600BF4904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26553F92069284600BF4904 /* YellowBike.app */,
+				F26554102069284600BF4904 /* YellowBikeTests.xctest */,
+				F265541B2069284600BF4904 /* YellowBikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26553FB2069284600BF4904 /* YellowBike */ = {
+			isa = PBXGroup;
+			children = (
+				F26554B9206B32C800BF4904 /* API.swift */,
+				F26553FC2069284600BF4904 /* AppDelegate.swift */,
+				F26553FE2069284600BF4904 /* ViewController.swift */,
+				F26554B0206A52D300BF4904 /* WebViewViewController.swift */,
+				F26554B4206ABED500BF4904 /* MenuTableViewController.swift */,
+				F26554BB206BCD9D00BF4904 /* MyPinAnnotation.swift */,
+				F26554002069284600BF4904 /* Main.storyboard */,
+				F26554AB206A4CA500BF4904 /* LaunchScreen.storyboard */,
+				F26554062069284600BF4904 /* Assets.xcassets */,
+				F265540B2069284600BF4904 /* Info.plist */,
+				F26554032069284600BF4904 /* YellowBike.xcdatamodeld */,
+				F26554B6206AC03F00BF4904 /* YellowBike-Bridging-Header.h */,
+			);
+			path = YellowBike;
+			sourceTree = "<group>";
+		};
+		F26554132069284600BF4904 /* YellowBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26554142069284600BF4904 /* YellowBikeTests.swift */,
+				F26554162069284600BF4904 /* Info.plist */,
+			);
+			path = YellowBikeTests;
+			sourceTree = "<group>";
+		};
+		F265541E2069284600BF4904 /* YellowBikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F265541F2069284600BF4904 /* YellowBikeUITests.swift */,
+				F26554212069284600BF4904 /* Info.plist */,
+			);
+			path = YellowBikeUITests;
+			sourceTree = "<group>";
+		};
+		F26554AD206A50C700BF4904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0113FD54CB3DF88927E91CB9 /* Pods_YellowBike.framework */,
+				08C572341A9186CFE08C5F95 /* Pods_YellowBikeTests.framework */,
+				4466197CEA1290D1A462C1DB /* Pods_YellowBikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26553F82069284600BF4904 /* YellowBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26554242069284600BF4904 /* Build configuration list for PBXNativeTarget "YellowBike" */;
+			buildPhases = (
+				14EC77358FF372DF88C2FCB3 /* [CP] Check Pods Manifest.lock */,
+				F26553F52069284600BF4904 /* Sources */,
+				F26553F62069284600BF4904 /* Frameworks */,
+				F26553F72069284600BF4904 /* Resources */,
+				B488252563D48B1424123BCB /* [CP] Embed Pods Frameworks */,
+				810E7310C828A5A35F9DB9C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YellowBike;
+			productName = YellowBike;
+			productReference = F26553F92069284600BF4904 /* YellowBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F265540F2069284600BF4904 /* YellowBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26554272069284600BF4904 /* Build configuration list for PBXNativeTarget "YellowBikeTests" */;
+			buildPhases = (
+				28E878EB22FE2A907F008093 /* [CP] Check Pods Manifest.lock */,
+				F265540C2069284600BF4904 /* Sources */,
+				F265540D2069284600BF4904 /* Frameworks */,
+				F265540E2069284600BF4904 /* Resources */,
+				7E9E444094CDD576FE25FA48 /* [CP] Embed Pods Frameworks */,
+				2CC0349DF8C5DBB381CE9843 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26554122069284600BF4904 /* PBXTargetDependency */,
+			);
+			name = YellowBikeTests;
+			productName = YellowBikeTests;
+			productReference = F26554102069284600BF4904 /* YellowBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F265541A2069284600BF4904 /* YellowBikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F265542A2069284600BF4904 /* Build configuration list for PBXNativeTarget "YellowBikeUITests" */;
+			buildPhases = (
+				B6BE4F2AF5C4568EDBCD2394 /* [CP] Check Pods Manifest.lock */,
+				F26554172069284600BF4904 /* Sources */,
+				F26554182069284600BF4904 /* Frameworks */,
+				F26554192069284600BF4904 /* Resources */,
+				EC9C5B90B50C0BA23A24D8C6 /* [CP] Embed Pods Frameworks */,
+				52AA2937AAAD89942203B9E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F265541D2069284600BF4904 /* PBXTargetDependency */,
+			);
+			name = YellowBikeUITests;
+			productName = YellowBikeUITests;
+			productReference = F265541B2069284600BF4904 /* YellowBikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26553F12069284500BF4904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = butcher;
+				TargetAttributes = {
+					F26553F82069284600BF4904 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					F265540F2069284600BF4904 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F26553F82069284600BF4904;
+					};
+					F265541A2069284600BF4904 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F26553F82069284600BF4904;
+					};
+				};
+			};
+			buildConfigurationList = F26553F42069284500BF4904 /* Build configuration list for PBXProject "YellowBike" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26553F02069284500BF4904;
+			productRefGroup = F26553FA2069284600BF4904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26553F82069284600BF4904 /* YellowBike */,
+				F265540F2069284600BF4904 /* YellowBikeTests */,
+				F265541A2069284600BF4904 /* YellowBikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26553F72069284600BF4904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26554AC206A4CA500BF4904 /* LaunchScreen.storyboard in Resources */,
+				F26554072069284600BF4904 /* Assets.xcassets in Resources */,
+				F26554022069284600BF4904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F265540E2069284600BF4904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26554192069284600BF4904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EC77358FF372DF88C2FCB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowBike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E878EB22FE2A907F008093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowBikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC0349DF8C5DBB381CE9843 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YellowBikeTests/Pods-YellowBikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52AA2937AAAD89942203B9E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YellowBikeUITests/Pods-YellowBikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9E444094CDD576FE25FA48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YellowBikeTests/Pods-YellowBikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810E7310C828A5A35F9DB9C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B488252563D48B1424123BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6BE4F2AF5C4568EDBCD2394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YellowBikeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9C5B90B50C0BA23A24D8C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YellowBikeUITests/Pods-YellowBikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26553F52069284600BF4904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26553FF2069284600BF4904 /* ViewController.swift in Sources */,
+				F26553FD2069284600BF4904 /* AppDelegate.swift in Sources */,
+				F26554B5206ABED500BF4904 /* MenuTableViewController.swift in Sources */,
+				F26554B1206A52D300BF4904 /* WebViewViewController.swift in Sources */,
+				F26554BC206BCD9D00BF4904 /* MyPinAnnotation.swift in Sources */,
+				F26554BA206B32C900BF4904 /* API.swift in Sources */,
+				F26554052069284600BF4904 /* YellowBike.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F265540C2069284600BF4904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26554152069284600BF4904 /* YellowBikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26554172069284600BF4904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26554202069284600BF4904 /* YellowBikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26554122069284600BF4904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26553F82069284600BF4904 /* YellowBike */;
+			targetProxy = F26554112069284600BF4904 /* PBXContainerItemProxy */;
+		};
+		F265541D2069284600BF4904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26553F82069284600BF4904 /* YellowBike */;
+			targetProxy = F265541C2069284600BF4904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F26554002069284600BF4904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26554012069284600BF4904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26554222069284600BF4904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F26554232069284600BF4904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26554252069284600BF4904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B331E6E887AEC9A6F9CDD808 /* Pods-YellowBike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52EHHFY52C;
+				INFOPLIST_FILE = YellowBike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.19lou.nineteenlou.YellowBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YellowBike/YellowBike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26554262069284600BF4904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1CF12C0F15CEBF165CF9EE /* Pods-YellowBike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52EHHFY52C;
+				INFOPLIST_FILE = YellowBike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.19lou.nineteenlou.YellowBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YellowBike/YellowBike-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F26554282069284600BF4904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C472BD05CF1751683C8C38 /* Pods-YellowBikeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52EHHFY52C;
+				INFOPLIST_FILE = YellowBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.19lou.nineteenlou.YellowBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowBike.app/YellowBike";
+			};
+			name = Debug;
+		};
+		F26554292069284600BF4904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABC1215036465890FD8FD5A /* Pods-YellowBikeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52EHHFY52C;
+				INFOPLIST_FILE = YellowBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.19lou.nineteenlou.YellowBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YellowBike.app/YellowBike";
+			};
+			name = Release;
+		};
+		F265542B2069284600BF4904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45BB0450821508537ECC502 /* Pods-YellowBikeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52EHHFY52C;
+				INFOPLIST_FILE = YellowBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.19lou.nineteenlou.YellowBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YellowBike;
+			};
+			name = Debug;
+		};
+		F265542C2069284600BF4904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531B647DA54D302427318F8F /* Pods-YellowBikeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52EHHFY52C;
+				INFOPLIST_FILE = YellowBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.19lou.nineteenlou.YellowBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YellowBike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26553F42069284500BF4904 /* Build configuration list for PBXProject "YellowBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26554222069284600BF4904 /* Debug */,
+				F26554232069284600BF4904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26554242069284600BF4904 /* Build configuration list for PBXNativeTarget "YellowBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26554252069284600BF4904 /* Debug */,
+				F26554262069284600BF4904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26554272069284600BF4904 /* Build configuration list for PBXNativeTarget "YellowBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26554282069284600BF4904 /* Debug */,
+				F26554292069284600BF4904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F265542A2069284600BF4904 /* Build configuration list for PBXNativeTarget "YellowBikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F265542B2069284600BF4904 /* Debug */,
+				F265542C2069284600BF4904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F26554032069284600BF4904 /* YellowBike.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F26554042069284600BF4904 /* YellowBike.xcdatamodel */,
+			);
+			currentVersion = F26554042069284600BF4904 /* YellowBike.xcdatamodel */;
+			path = YellowBike.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F26553F12069284500BF4904 /* Project object */;
+}
