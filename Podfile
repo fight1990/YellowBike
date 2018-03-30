@@ -7,13 +7,14 @@ target 'YellowBike' do
 
   # Pods for YellowBike
 
-  pod "SWRevealViewController"
-  pod "AMap3DMap"
-  pod "AMapLocation"
-  pod "AMapSearch"
-  pod "AMapNavi"
-  pod "FTIndicator"
-
+  pod 'SWRevealViewController'
+  pod 'AMap3DMap'
+  pod 'AMapLocation'
+  pod 'AMapSearch'
+  pod 'AMapNavi'
+  pod 'FTIndicator'
+  pod 'swiftScan'
+  
    # pod "IQKeyboardManager"
    # pod "Masonry"
    # pod "ReactiveCocoa"

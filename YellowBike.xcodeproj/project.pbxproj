@@ -10,6 +10,7 @@
 		07E092AE7867B572B609655C /* Pods_YellowBikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4466197CEA1290D1A462C1DB /* Pods_YellowBikeUITests.framework */; };
 		2ECD9649C524D010389D805D /* Pods_YellowBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113FD54CB3DF88927E91CB9 /* Pods_YellowBike.framework */; };
 		C4DA06359E9D6118FD3C608F /* Pods_YellowBikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C572341A9186CFE08C5F95 /* Pods_YellowBikeTests.framework */; };
+		F23D9DA0206E9F2800AE023C /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23D9D9F206E9F2800AE023C /* InputViewController.swift */; };
 		F26553FD2069284600BF4904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553FC2069284600BF4904 /* AppDelegate.swift */; };
 		F26553FF2069284600BF4904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26553FE2069284600BF4904 /* ViewController.swift */; };
 		F26554022069284600BF4904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26554002069284600BF4904 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		F26554B5206ABED500BF4904 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554B4206ABED500BF4904 /* MenuTableViewController.swift */; };
 		F26554BA206B32C900BF4904 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554B9206B32C800BF4904 /* API.swift */; };
 		F26554BC206BCD9D00BF4904 /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26554BB206BCD9D00BF4904 /* MyPinAnnotation.swift */; };
+		F2D906EA206D55BE00421C5E /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265551A206D4B7E00BF4904 /* ScanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		AABC1215036465890FD8FD5A /* Pods-YellowBikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBikeTests/Pods-YellowBikeTests.release.xcconfig"; sourceTree = "<group>"; };
 		B331E6E887AEC9A6F9CDD808 /* Pods-YellowBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike.debug.xcconfig"; sourceTree = "<group>"; };
 		CC1CF12C0F15CEBF165CF9EE /* Pods-YellowBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YellowBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike.release.xcconfig"; sourceTree = "<group>"; };
+		F23D9D9F206E9F2800AE023C /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		F26553F92069284600BF4904 /* YellowBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26553FC2069284600BF4904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F26553FE2069284600BF4904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		F26554B6206AC03F00BF4904 /* YellowBike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YellowBike-Bridging-Header.h"; sourceTree = "<group>"; };
 		F26554B9206B32C800BF4904 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F26554BB206BCD9D00BF4904 /* MyPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+		F265551A206D4B7E00BF4904 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 				F26554B0206A52D300BF4904 /* WebViewViewController.swift */,
 				F26554B4206ABED500BF4904 /* MenuTableViewController.swift */,
 				F26554BB206BCD9D00BF4904 /* MyPinAnnotation.swift */,
+				F265551A206D4B7E00BF4904 /* ScanViewController.swift */,
+				F23D9D9F206E9F2800AE023C /* InputViewController.swift */,
 				F26554002069284600BF4904 /* Main.storyboard */,
 				F26554AB206A4CA500BF4904 /* LaunchScreen.storyboard */,
 				F26554062069284600BF4904 /* Assets.xcassets */,
@@ -436,11 +442,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-YellowBike/Pods-YellowBike-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
 				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/swiftScan/swiftScan.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/swiftScan.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -487,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23D9DA0206E9F2800AE023C /* InputViewController.swift in Sources */,
 				F26553FF2069284600BF4904 /* ViewController.swift in Sources */,
 				F26553FD2069284600BF4904 /* AppDelegate.swift in Sources */,
 				F26554B5206ABED500BF4904 /* MenuTableViewController.swift in Sources */,
@@ -494,6 +503,7 @@
 				F26554BC206BCD9D00BF4904 /* MyPinAnnotation.swift in Sources */,
 				F26554BA206B32C900BF4904 /* API.swift in Sources */,
 				F26554052069284600BF4904 /* YellowBike.xcdatamodeld in Sources */,
+				F2D906EA206D55BE00421C5E /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>小黄车摄像头扫码</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>启动地图定位</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

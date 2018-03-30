@@ -16,6 +16,7 @@ PODS:
   - FTIndicator/FTNotificationIndicator (1.2.6)
   - FTIndicator/FTProgressIndicator (1.2.6)
   - FTIndicator/FTToastIndicator (1.2.6)
+  - swiftScan (1.1.3)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - AMapNavi
   - AMapSearch
   - FTIndicator
+  - swiftScan
   - SWRevealViewController
 
 SPEC CHECKSUMS:
@@ -33,8 +35,9 @@ SPEC CHECKSUMS:
   AMapNavi: 4d75c4ff83abd50959530e95c6da439e5b9fc06a
   AMapSearch: 314f75e9ce282b53dbf66455efa416c39f12b5b1
   FTIndicator: d2a7c204341b7b0165b6dbeb5bf6979c6d7d4bb7
+  swiftScan: ad753846f4292c19a376dd159db035d62b689458
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 667048577518b7c44d46a260a5236b439a22d8e8
+PODFILE CHECKSUM: d26ce5817a7ac43c269f835479ea604d3eeae0c4
 
 COCOAPODS: 1.3.1
